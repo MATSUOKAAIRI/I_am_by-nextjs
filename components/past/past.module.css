@@ -1,0 +1,16 @@
+.h2{
+    font-size: 50px;
+    text-align: center;
+ }
+ .cozyspaceimg,.cozyspacemessage{
+    display: inline-block;
+    vertical-align:middle;
+  }
+  .h3{
+    font-size: 40px;
+  }
+  .cozyspaceimg2{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 600px;
+  }

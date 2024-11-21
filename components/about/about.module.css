@@ -1,0 +1,65 @@
+
+.h3 { 
+    text-align: center;
+    font-size: 50px;
+    }
+ .h4{font-size: 100px;}
+ .p{font-size: 50px;}
+
+  /*枠*/
+  .tapebox{
+    margin: 1em 0;
+    padding: 1em;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-left: 300px;
+    background-color:#ffffff;
+    background-size: 660px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tape{
+    display: block;
+    background-color: rgb(252, 252, 231);
+    opacity: 0.2;
+    transform: rotate(3deg);
+    width: 10%;
+    height: 35px;
+    margin: -2em auto 0 auto;
+    border-left: 13px dotted rgba(0,0,0,.1);
+    border-right: 13x dotted rgba(0,0,0,.1);
+  } 
+  /*背景*/
+ .body {
+    background-size: cover;               /* 全画面 */
+    background-attachment: fixed;         /* 固定 */
+    background-position: center center;   /* 縦横中央 */
+ }
+  /*枠2*/
+  .tapebox2{
+    margin: 1em 0;
+    padding: 1em;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-left: 300px;
+    background-color:#ffffff;
+    background-size: 660px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  .tape2{
+    display: block;
+    background-color: rgb(252, 252, 210);
+    opacity: 0.2;
+    transform: rotate(3deg);
+    width: 10%;
+    height: 35px;
+    margin: -2em auto 0 auto;
+    border-left: 13px dotted rgba(0,0,0,.1);
+    border-right: 13x dotted rgba(0,0,0,.1);
+  } 
+  .float{
+    float: left;
+    margin-left: 100px;
+}
