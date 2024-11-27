@@ -1,19 +1,24 @@
 .h2{
     font-size: 50px;
     text-align: center;
+    color:#000;
  }
  .h3{
     font-size: 30px;
     text-align: center;
+    color:#fff;
  }
  .h4{
     font-size: 30px;
     text-align: center;
+    color:#fff;
  }
  .p{
     font-size: 20px;
     text-align: center;
+    color:#fff;
  }
  .li{
-    text-align:center;
+    display:flex;
+    justify-content: center;
  }

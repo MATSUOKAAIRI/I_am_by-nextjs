@@ -2,10 +2,10 @@ import style1 from './about.module.css';
 
 export default function About(){
     return( 
-    <div><h3 className={style1.h3}>自己紹介</h3>
+    <div><h3 className="text-center text-[100px] ">自己紹介</h3>
     <div className={style1.tapebox}>
     <div className={style1.tape}></div>
-        <p className={style1.p}>名前</p>
+        <p className={style1.p}>名前:</p>
         <h4 className={style1.h4}>松岡愛梨</h4>
     </div>
      

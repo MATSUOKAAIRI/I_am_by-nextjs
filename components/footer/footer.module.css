@@ -23,15 +23,16 @@
  .x{
     width: 21px;
     height: 21px;
-    color: #000000;
+    color: #fff;
+    width:100px;
+    height:100px;
  }
  .instagram{
-    width: 21px;
-    height: 21px;
-    color: #000000;
+    width: 100px;
+    height: 100px;
  }
  .git{
-    width: 21px;
-    height: 21px;
+    width: 100px;
+    height: 100px;
     color: #000000;
   }
