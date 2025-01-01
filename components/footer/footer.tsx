@@ -19,7 +19,7 @@ export default function Footer(){
             </li>
             </ul>
         </nav>
-        <p className={style1.footer2__copyright}>@ 2024</p>
+        <p className={style1.footer2__copyright}>@ 2025</p>
     </footer>
     </>)
 }
