@@ -12,9 +12,13 @@ export default function Home() {
   return (
   <>
     <div className={style1.s} >AIRI　MATSUOKA</div>
+    <div id="Top" className=""></div>
     <Header/>
+    <div id="About" className=""></div>
     <About/>
+    <div id="Past" className=""></div>
     <Past/>
+    <div id="Continue" className=""></div>
     <Continue/>
     <Footer/>
   </>

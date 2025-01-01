@@ -1,6 +1,7 @@
 .h2{
     font-size: 100px;
     text-align: center;
+    text-color:
  }
  .cozyspaceimg,.cozyspacemessage{
     display: inline-block;
@@ -11,6 +12,10 @@
   }
   .cozyspaceimg2{
     display: inline-block;
-    vertical-align:middle;
+    vertical-align:;
     margin-left: 600px;
+  }
+  .root {
+    --background: red;
+    --foreground: #171717;
   }

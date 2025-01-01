@@ -1,7 +1,7 @@
 import style1 from './past.module.css';
 
 export default function Header(){
-    return(<> 
+    return(<div> 
         <h2 className={style1.h2}>これまで</h2>
         <div className={style1.cozyspacewrapper}>
             <div className={style1.container}>
@@ -36,12 +36,12 @@ export default function Header(){
                 <p className={style1.p}>部活動</p>
                 <p className={style1.p}>ソフトボール部</p>
                 <p className={style1.p}>部長</p>
-                <p>ポジション:キャッチャー                       </p>
+                <p>ポジション:キャッチャー</p>
               </div>
               <div className={style1.cozyspaceimg}>
                 <img src="画像5.png" width="700px" height="500px"/>
               </div>
             </div>
         </div>
-    </>)
+    </div>)
 }
