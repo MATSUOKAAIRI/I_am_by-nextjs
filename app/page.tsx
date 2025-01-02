@@ -4,18 +4,18 @@ import style1 from './page.module.css'
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import About from "@/components/about/about";
-import Continue from "@/components/continue/continue"
+import Do from "@/components/do/do"
 
 
 export default function Home() {
   return (
   <>
-    <div className={style1.s} >AIRI　MATSUOKA</div>
-    <div id="Top" className=""></div>
-    <Header/>
+  <div id="Header" className=""></div>
+   <Header/>
     <div id="About" className=""></div>
     <About/>
-    <Continue/>
+    <div id="Do" className=""></div>
+    <Do/>
     <Footer/>
   </>
   );

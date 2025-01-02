@@ -1,4 +1,4 @@
-import style1 from './continue.module.css';
+import style1 from './do.module.css';
 
 export default function Continue(){
     return(<div className={style1.body}> 
