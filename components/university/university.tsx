@@ -5,15 +5,15 @@ export default function University(){
 
                 <h1 className="md:text-7xl text-5xl font-bold mb-6">University</h1>
                 <div className="md:flex mb-4 underline decoration-red-800 underline-offset-8">
-            <h2 className="md:text-[50px] text-[20px]">大学:　</h2>
-            <h3 className=" md:text-[50px] text-center text-[20px]">金沢工業大学工学部情報工学科1年</h3>
+            <h2 className="md:text-[40px] text-[20px]">大学:　</h2>
+            <h3 className=" md:text-[40px] text-center text-[20px]">金沢工業大学工学部情報工学科1年</h3>
         </div>
         <div className='mb-4 underline decoration-red-800 underline-offset-8'>
-            <h3 className="md:text-[50px] text-[20px] text-left">課外活動:</h3>
+            <h3 className="md:text-[40px] text-[20px] text-left">課外活動:</h3>
             <div className="items-center flex flex-col text-start w-full ">
-            <p className="text-center md:text-[50px] text-[20px]"> セキュリティ・アッププロジェクト</p>
-            <p className="text-center md:text-[50px] text-[20px]">フードクリエーションWeb班(運営)</p>
-            <p className="text-center md:text-[50px] text-[20px]">CirKit</p>
+            <p className="text-center md:text-[40px] text-[20px]">・セキュリティアッププロジェクト</p>
+            <p className="text-center md:text-[40px] text-[20px]">・フードクリエーションWeb班(運営)</p>
+            <p className="text-center md:text-[40px] text-[20px]">・CirKit</p>
         </div>
         </div>
             </div>

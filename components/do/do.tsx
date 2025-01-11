@@ -7,12 +7,12 @@ export default function Do(){
 
                 <h1 className="md:text-7xl text-5xl font-bold mb-6">Doing</h1>
                 <div className='justify-center mb-4 underline decoration-red-800 underline-offset-8'>
-                <h4 className="md:text-[50px] text-[20px]">興味分野:</h4>
-                <p className="md:text-[50px] text-[20px] text-center">セキュリティ、Webフロントエンド</p>
+                <h4 className="md:text-[40px] text-[20px]">興味分野:</h4>
+                <p className="md:text-[40px] text-[20px] text-center">セキュリティ、Webフロントエンド</p>
                 </div>
                 <div className=' justify-center mb-4 underline decoration-red-800 underline-offset-8'>
-                <h4 className="md:text-[50px] text-[20px]">言語:</h4>
-                <p className="md:text-[50px] text-[20px] text-center">python、Next.js、react、HTML、CSS、JavaScript</p>
+                <h4 className="md:text-[40px] text-[20px]">言語:</h4>
+                <p className="md:text-[40px] text-[20px] text-center">python、Next.js、react、HTML、CSS、JavaScript</p>
                 </div>
             </div>
         </div>
