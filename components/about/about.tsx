@@ -11,14 +11,11 @@ export default function About(){
             <p className="md:text-[40px] text-[20px]">名前:　</p>
             <h4 className="text-center md:text-[40px] text-[20px]">りぃ</h4>
         </div>
-     
-
-
         <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">出身:　</p>
             <h4 className="text-center md:text-[40px] text-[20px]">富山県</h4>
         </div>
-           <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
+        <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">好きな食べ物:　</p>
             <h4 className="text-center md:text-[40px] text-[20px]">ラーメン</h4>
         </div>
