@@ -5,22 +5,25 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import About from "@/components/about/about";
 import University from "@/components/university/university";
-import Do from "@/components/do/do"
+import Do from "@/components/do/do";
+import Action from "@/components/action/action";
 
 
 export default function Home() {
   return (
   <>
   
-  <div id="Header"></div>
-  <Hero/>
-   <Header/>
+    <div id="Header"></div>
+    <Hero/>
+    <Header/>
     <div id="About"></div>
     <About/>
     <div id="University"></div>
     <University/>
     <div id="Do"></div>
     <Do/>
+    <div id="Action"></div>
+    <Action/>
     <Footer/>
   </>
   );
