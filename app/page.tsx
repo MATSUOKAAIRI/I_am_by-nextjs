@@ -13,16 +13,16 @@ export default function Home() {
   return (
   <>
   
-    <div id="Header"></div>
+    <div id="header"></div>
     <Hero/>
     <Header/>
-    <div id="About"></div>
+    <div id="about"></div>
     <About/>
-    <div id="University"></div>
+    <div id="university"></div>
     <University/>
-    <div id="Do"></div>
+    <div id="do"></div>
     <Do/>
-    <div id="Action"></div>
+    <div id="action"></div>
     <Action/>
     <Footer/>
   </>
