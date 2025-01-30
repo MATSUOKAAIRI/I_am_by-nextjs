@@ -3,8 +3,10 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "自己紹介",
-  description: "こんにちは",
+  title: "rii_3112",
+  description: "portfolio",
+  openGraph: {
+  images: "/アイコン.jpg",},
 };
 
 export default function RootLayout({
