@@ -11,7 +11,7 @@ export default function University(){
                     <h3 className="md:text-[40px] text-[20px] text-left">課外活動:</h3>
                     <div className="items-center flex flex-col text-start w-full ">
                         <p className="text-center md:text-[40px] text-[20px]">・セキュリティアッププロジェクト</p>
-                        <p className="text-center md:text-[40px] text-[20px]">・フードクリエーションWeb班(運営)</p>
+                        <p className="text-center md:text-[40px] text-[20px]">・フードクリエーションWeb班</p>
                         <p className="text-center md:text-[40px] text-[20px]">・CirKit</p>
                     </div>
                 </div>
