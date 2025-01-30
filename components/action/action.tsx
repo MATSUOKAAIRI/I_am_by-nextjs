@@ -6,6 +6,8 @@ return(
         <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">2024年度:　</p>            
             <p className="md:text-[40px] text-[20px]">ミニセキュリティキャンプin石川</p>
+        </div>
+        <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">2025年度　</p>
         </div>
     </div>
