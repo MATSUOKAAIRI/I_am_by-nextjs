@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "../styles/globals.css";
 import Hero from "@/components/hero/hero";
 import Header from "@/components/header/header";

@@ -1,5 +1,3 @@
-import style1 from './do.module.css';
-
 export default function Do(){
     return(
         <div className="flex items-center justify-center bg-green-200 mt-8 md:mb-12 mb-16"> 
