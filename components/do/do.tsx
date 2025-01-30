@@ -1,4 +1,4 @@
-export default function Do(){
+export default function Doing(){
     return(
         <div className="flex items-center justify-center bg-green-200 mt-8 md:mb-12 mb-16"> 
             <div className='bg-yellow-100 text-gray-700 rounded-3xl md:p-16 items-center max-w-6xl h-11/12 w-11/12 '>

@@ -4,7 +4,7 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import About from "@/components/about/about";
 import University from "@/components/university/university";
-import Do from "@/components/do/do";
+import Doing from "@/components/do/do";
 import Action from "@/components/action/action";
 
 
@@ -19,8 +19,8 @@ export default function Home() {
     <About/>
     <div id="university"></div>
     <University/>
-    <div id="do"></div>
-    <Do/>
+    <div id="doing"></div>
+    <Doing/>
     <div id="action"></div>
     <Action/>
     <Footer/>
