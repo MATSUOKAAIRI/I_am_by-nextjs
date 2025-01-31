@@ -2,7 +2,7 @@ export default function University(){
     return(
         <div className="flex items-center justify-center bg-green-200 mb-16 mt-8"> 
             <div className='bg-yellow-100 text-gray-700 rounded-3xl md:p-16 items-center max-w-6xl h-5/6 w-11/12 justify-center'>
-                <h1 className="md:text-7xl text-5xl font-bold mb-6">University</h1>
+                <h1 className="md:text-7xl text-5xl font-bold mb-6 ml-6">University</h1>
                 <div className="md:flex mb-4 underline decoration-red-800 underline-offset-8">
                     <h2 className="md:text-[40px] text-[20px]">大学:　</h2>
                     <h3 className=" md:text-[40px] text-center text-[20px]">金沢工業大学工学部情報工学科1年</h3>
