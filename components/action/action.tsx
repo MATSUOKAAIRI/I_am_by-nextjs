@@ -6,12 +6,12 @@ return(
             <h1 className="md:text-7xl text-5xl font-bold mb-6">Action</h1>
             <h1 className="md:text-6xl text-4xl font-bold mb-6">(参加イベント)</h1>
         </div>
-        <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
+        <div className='flex flex-col justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">2024年度:　</p>            
-            <p className="md:text-[40px] text-[20px]">ミニセキュリティキャンプin石川</p>
-            <p className="md:text-[40px] text-[20px]">BuriKaigi2025</p>
-            <p className="md:text-[40px] text-[20px]">P3NFEST 2025 Winter</p>
-            <p className="md:text-[40px] text-[20px]">技育祭 2025 春</p>
+            <p className="md:text-[40px] text-[20px]">・ミニセキュリティキャンプin石川</p>
+            <p className="md:text-[40px] text-[20px]">・BuriKaigi2025</p>
+            <p className="md:text-[40px] text-[20px]">・P3NFEST 2025 Winter</p>
+            <p className="md:text-[40px] text-[20px]">・技育祭 2025 春</p>
         </div>
         <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">2025年度:　</p>
