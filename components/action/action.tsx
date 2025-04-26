@@ -13,10 +13,10 @@ return(
             <p className="md:text-[40px] text-[20px]">・P3NFEST 2025 Winter</p>
             <p className="md:text-[40px] text-[20px]">・技育祭 2025 春</p>
         </div>
-        <div className='flex justify-center mb-4 underline decoration-red-800 underline-offset-8'>
+        <div className='flex flex-col justify-center mb-4 underline decoration-red-800 underline-offset-8'>
             <p className="md:text-[40px] text-[20px]">2025年度:　</p>
-            <p className="md:text-[40px] text-[20px]">技育ハッカソン Vol.2</p>
-            <p className="md:text-[40px] text-[20px]">技育キャラバン in 金沢</p>
+            <p className="md:text-[40px] text-[20px]">・技育ハッカソン Vol.2</p>
+            <p className="md:text-[40px] text-[20px]">・技育キャラバン in 金沢</p>
         </div>
     </div>
 </div>
