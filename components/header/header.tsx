@@ -1,7 +1,7 @@
 export default function Header(){
   return(
     <> 
-      <header className="text-[35px] sm:text-[32px] md:text-[40px] z-10 p-4">
+      <header className="text-[35px] sm:text-[32px] md:text-[40px] z-10 p-8 m-10">
         <div className="flex flex-col md:flex-row justify-center items-center border-b-4 border-white mx-4 md:mx-10 mb-4">
           <ul className="flex flex-col md:flex-row items-center">
             <li className="mb-2 md:mb-0 md:mr-6">
