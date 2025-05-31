@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer(){
     return(<> 
-<footer className="flex flex-col items-center bg-gray-600 pt-3">
+<footer className="flex flex-col items-center bg-slate-800 pt-3">
         <ul className="flex items-center gap-x-12 mt-2 p-1">
             <li>
                 <a href="https://twitter.com/rii_3112/">
