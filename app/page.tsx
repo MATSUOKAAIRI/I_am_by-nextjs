@@ -8,11 +8,10 @@ import Doing from "@/components/do/do";
 import Action from "@/components/action/action";
 import Work from "@/components/work/work";
 
-
 export default function Home() {
+
   return (
-  <>
-    <div id="header"></div>
+  <div className="bg-gray-600 overflow-x-hidden">
     <Hero/>
     <Header/>
     <div id="about"></div>
@@ -26,6 +25,6 @@ export default function Home() {
     <div id="work"></div>
     <Work/>
     <Footer/>
-  </>
+  </div>
   );
 }

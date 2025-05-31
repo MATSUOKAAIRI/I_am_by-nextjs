@@ -4,6 +4,7 @@
 
 body {
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  background-color:#bbf7d0;
+  font-family: 'Noto', sans-serif;
+  background-color:hsl(215, 14%, 34%) ;  /*#bbf7d0*/
+  
 }
