@@ -1,9 +1,9 @@
-"use client"
-import ProjectBox from "./ProjectBox";
-import projects from "./projects";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import React, { useEffect, useRef } from "react";
+'use client';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useEffect, useRef } from 'react';
+import ProjectBox from './ProjectBox';
+import projects from './projects';
 
 export default function Work() {
   const topbox = useRef(null);
@@ -18,26 +18,26 @@ export default function Work() {
     gsap.to(topbox.current, {
       scrollTrigger: {
         trigger: topbox.current,
-        start: "bottom 99%",
-        end: "top 1%",
+        start: 'bottom 99%',
+        end: 'top 1%',
         scrub: true,
       },
-      x: "80vw",
+      x: '80vw',
       rotation: 1080,
-      ease: "none",
+      ease: 'none',
       duration: 3,
     });
 
     gsap.to(buttombox.current, {
       scrollTrigger: {
         trigger: topbox.current,
-        start: "bottom 99%",
-        end: "top 1%",
+        start: 'bottom 99%',
+        end: 'top 1%',
         scrub: true,
       },
-      x: "-80vw",
+      x: '-80vw',
       rotation: -1080,
-      ease: "none",
+      ease: 'none',
       duration: 3,
     });
 
@@ -52,15 +52,15 @@ export default function Work() {
       y: 0,
       opacity: 1,
       duration: 2,
-      ease: "expo.out",
+      ease: 'expo.out',
       stagger: {
         each: 0.3,
-        from: "start",
+        from: 'start',
       },
       scrollTrigger: {
         trigger: buttombox.current,
-        start: "end 90%",
-        toggleActions: "play none none none",
+        start: 'end 90%',
+        toggleActions: 'play none none none',
       },
     });
   }, []);
@@ -76,13 +76,13 @@ export default function Work() {
         id="work"
       >
         <div className="text-white rounded-3xl p-6 sm:p-10 w-full max-w-5xl bg-zinc-900 border">
-          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 text-center sm:text-left">
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 text-center sm:text-left font-inter">
             Works(制作・開発物)
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto p-4 sm:p-10">
             {projects.map((project, i) => (
               <ProjectBox
-                key={i}
+                key={project.title}
                 title={project.title}
                 description={project.description}
                 link={project.link}
