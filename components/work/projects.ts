@@ -17,8 +17,8 @@ const projects: Project[] = [
     link: 'https://rii-3112.pages.dev/',
   },
   {
-    title: '非常食管理アプリ',
-    description: '技育キャラバンにでるために制作。非常食の管理を行うアプリ。',
+    title: '非常食管理アプリ(SonaBase)',
+    description: '非常食の管理を行うアプリ。',
     link: 'https://emergencyfood.vercel.app/',
   },
 ];
